@@ -63,7 +63,7 @@ In Jupyter Notebook, do the following things to set it up to run the prompt-gene
    Replace the URL with the path of the dataset. 
   
 
-## Analysis Process
+## Process Overview
 The data set is analysed using Python in Jupyter Notebook. The Generative AI tool is given prompts to generate code and the prompt-generated code is tested and leveraged in Jupyter Notebook to carry out various tasks like data preparation, analysis, visualization, and dashboarding.        
 
 1. **Load the dataset**
@@ -101,3 +101,53 @@ The data set is analysed using Python in Jupyter Notebook. The Generative AI too
      1. Identify the columns of a data frame with missing values.
      2. Replace the missing values thus identified with mean values of the column.
      ```
+
+3. **Exploratory Data Analysis**
+   Write prompts that generate codes to perform the following actions:     
+
+   1. Identify the GDP per capita and Healthy Life Expectancy of the top 10 countries:
+      ```
+      Write a python code that identifies the GDP per capita and Healthy Life Expectancy of the top 10 countries and create a bar chart named fig1 to show the GDP per capita and Healthy Life Expectancy of these top 10 countries using plotly.
+      ```
+
+   2. Find the correlation between the Economy (GDP per Capita), Family, Health (Life Expectancy), Freedom, Trust (Government Corruption), Generosity and Happiness score:
+      ```
+      Write a python code that performs the following actions:
+      1. Create a sub-dataset including Economy (GDP per Capita), Family, Health (Life Expectancy), Freedom, Trust (Government Corruption), Generosity, and Happiness Score attributes from the dataframe (df).
+      2. Find the correlation between the attributes in the subdataset as a heatmap named fig2 using Plotly of width 800 and height 600.
+      ```
+
+   3. Create a scatter plot to identify the effect of GDP per Capita on Happiness Score in various Regions. Plotly is used for creating the plot:
+      ```
+      Write a code that creates a scatter plot named fig3 between Happiness Score and GDP per Capita attributes of a dataframe using Plotly. Use Region to color the data points on the scatter plot.
+      ```
+
+   4. Create a pie chart to present Happiness Score by Regions:
+      ```
+      Write a Plotly code that creates a pie chart named fig4 to present Happiness Score by Region attributes of dataframe df.
+      ```
+
+   5. Create a map to display GDP per capita of countries and include Healthy life expectancy to be shown as a tooltip:
+      ```
+      Write a Plotly code that creates a map named fig5 to display GDP per capita of countries and include Healthy Life Expectancy to be shown as a tooltip.
+      ```
+
+4. **Dashboard Creation**
+   The prompt that generates the code to write the graph plots generated in the previous steps into a HTML page called ```dashboard.html``` is as follows:
+   ```
+   Write Python code to write the Plotly figures (fig1, fig2, fig3, fig4, fig5) to a single HTML file named “dashboard.html”
+   ```
+
+5. **Narrative Generation**
+   The prompt is as follows:
+   ```
+   Generate a narrative to present the dashboard on world happiness report with the following charts:-
+   1. A heatmap showing correlation
+   2. A scatter plot to identify the effect of GDP per Capita on Happiness Score in various Regions
+   3. A pie chart to present Happiness score by Regions
+   4. A map to display `GDP per capita` of `countries` and include `Healthy Life Expectancy` to be shown as a tooltip
+   ```
+   
+      
+      
+        
