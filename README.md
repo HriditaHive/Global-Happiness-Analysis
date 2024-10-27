@@ -38,6 +38,31 @@ The attributes of this dataset have been explained below:
 ## Software Used
 Jupyter Notebook     
 
+## Setup
+In Jupyter Notebook, do the following things to set it up to run the prompt-generated Python codes:
+
+- **Install required libraries**
+  ```
+  %pip install seaborn
+  ```
+
+- **Downloading the dataset**
+  ```
+  import requests
+
+  # Fetch the CSV file
+  response = requests.get(URL)
+
+  # Check if the request was successful
+  if response.status_code == 200:
+
+     # Write the response content to a local file
+     with open("dataset.csv", 'wb') as f:
+         f.write(response.content)
+  ```       
+   Replace the URL with the path of the dataset. 
+  
+
 ## Analysis Process
 The data set is analysed using Python in Jupyter Notebook. The Generative AI tool is given prompts to generate code and the prompt-generated code is tested and leveraged in Jupyter Notebook to carry out various tasks like data preparation, analysis, visualization, and dashboarding.        
 
