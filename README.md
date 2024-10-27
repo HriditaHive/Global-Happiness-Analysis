@@ -1,4 +1,5 @@
 # Global-Happiness-Analysis
+In this project, we leverage generative AI to streamline the creation of Python code for data preparation, analysis, visualization, and dashboarding. By automating these steps, the project facilitates efficient and reproducible workflows, making it easier to generate insights on the state of global happiness.
 
 ## Project Scenario
 A healthcare consultancy firm has been conducting a survey on the state of global happiness annually. The World Happiness Report offers valuable insights into factors influencing happiness across countries. As a data analyst, the firm wants me to produce a report to find out whether there are demographic, regional, and/or economic characteristics that lead to a better life.
@@ -35,8 +36,10 @@ The attributes of this dataset have been explained below:
 3. Create a dashboard with the visualizations.
 4. Generate the narrative to present the dashboard.
 
-## Software Used
-Jupyter Notebook     
+## Software And Libraries Used
+Jupyter Notebook - A web-based tool that enables users to write, execute, and document code in an interactive environment, ideal for data analysis, visualization, and sharing reproducible research.
+AI Classroom by Skills Network - A generative AI tool designed to help explore and master AI skills, including prompt engineering and large language model selection. 
+Python 3 - Libraries used are Pandas, Numpy, Seaborn and Plotly.
 
 ## Setup
 In Jupyter Notebook, do the following things to set it up to run the prompt-generated Python codes:
@@ -148,6 +151,8 @@ The data set is analysed using Python in Jupyter Notebook. The Generative AI too
    4. A map to display `GDP per capita` of `countries` and include `Healthy Life Expectancy` to be shown as a tooltip
    ```
    
-      
-      
-        
+## Conclusion
+In conclusion, the analysis of global happiness highlights that economic stability, health, social support, and governance are key determinants of happiness across nations. Wealthier countries with higher GDP per capita and longer life expectancies consistently report higher happiness levels, underscoring the importance of financial security and healthcare access. Furthermore, the positive correlation between happiness and factors like freedom, low corruption, and social support suggests that the quality of life is also closely tied to societal trust and individual freedoms. While regional disparities exist, with Western nations generally scoring higher in happiness, these findings emphasize that fostering environments with strong economic foundations, accessible healthcare, and trustworthy institutions can improve life satisfaction worldwide. These insights can inform policy efforts, especially in regions where happiness scores are lower, to focus on strengthening healthcare, economic opportunity, and institutional integrity to enhance overall well-being.
+
+## Acknowledgments
+Special thanks go to the World Happiness Report team for compiling and making this valuable dataset publicly available, allowing for deep insights into the factors influencing happiness across various countries. We also appreciate the open-source Python libraries, including Pandas, Seaborn, and Matplotlib, which facilitated efficient data handling, visualization, and analysis throughout this project. Additionally, we acknowledge the contributions of the data analytics community for their shared knowledge, which was instrumental in enhancing our approach to data exploration and visualization. Finally, thanks to the generative AI tools that helped streamline the code generation process, making it possible to analyze and present complex data insights effectively.
