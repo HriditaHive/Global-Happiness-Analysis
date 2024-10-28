@@ -37,8 +37,8 @@ The attributes of this dataset have been explained below:
 4. Generate the narrative to present the dashboard.
 
 ## Software And Libraries Used
-Jupyter Notebook - A web-based tool that enables users to write, execute, and document code in an interactive environment, ideal for data analysis, visualization, and sharing reproducible research.
-AI Classroom by Skills Network - A generative AI tool designed to help explore and master AI skills, including prompt engineering and large language model selection. 
+Jupyter Notebook - A web-based tool that enables users to write, execute, and document code in an interactive environment, ideal for data analysis, visualization, and sharing reproducible research.          
+AI Classroom by Skills Network - A generative AI tool designed to help explore and master AI skills, including prompt engineering and large language model selection.           
 Python 3 - Libraries used are Pandas, Numpy, Seaborn and Plotly.
 
 ## Setup
